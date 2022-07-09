@@ -1,7 +1,7 @@
 // 7 data types (all primitive except objects)
 // null, undefined, boolean, number, string, symbol (es6), object
 
-console.log(typeof null) // object (typeof inaccuracy)
+console.log(typeof null) // object (typeof operator inaccuracy)
 console.log(typeof undefined) // undefined
 console.log(typeof true) // boolean
 console.log(typeof 0) // number
