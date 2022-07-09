@@ -1,0 +1,16 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "js basics",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "js",
+    "es6"
+  ],
+  "author": "arthyrych",
+  "license": "ISC"
+}
