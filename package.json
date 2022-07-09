@@ -12,5 +12,8 @@
     "es6"
   ],
   "author": "arthyrych",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
