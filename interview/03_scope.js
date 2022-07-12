@@ -1,6 +1,6 @@
-// there are global and local scope
-// variables in global scope are available inside the local scope
-// variables in local scope are not available outside the local scope
+// there are global, block and function (local) scope
+// variables in global scope are available inside the block or local scope
+// variables in block or local scope are not available outside
 
 function funcA() {
   let a = 1
