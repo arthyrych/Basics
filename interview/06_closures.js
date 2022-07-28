@@ -1,5 +1,5 @@
-// closure gives you access to an outer function's scope from an inner function (function inside function)
-// we have no direct access to the enclosed variable
+// closure is when function has access to variables from outer function's scope (function inside function)
+// when function encloses variables from outer function's scope and we have no direct access to the enclosed variable
 
 // variable message is enclosed and we have no direct access to it except through log method used by inner function
 function sayHelloTo(name) {

@@ -14,7 +14,7 @@ console.log('b', b) // b 43
 let arr1 = [1, 2, 3]
 // it works as a link
 let arr2 = arr1
-// actions with newArr will affect arr
+// actions with arr2 will affect arr1
 arr2.push(4)
 console.log('arr1', arr1) // arr1 [ 1, 2, 3, 4 ]
 console.log('arr2', arr2) // arr2 [ 1, 2, 3, 4 ]

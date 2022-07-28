@@ -1,6 +1,6 @@
 // hoisting shows how the interpreter works and gives a possibility to get access to entities before their declaration
 
-// even though the sum function declared in the bottom we have access to it
+// the sum function declared below however we can invoke it
 console.log(sum(1, 2)) // 3
 function sum(a, b) {
   return a + b

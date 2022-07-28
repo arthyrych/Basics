@@ -1,6 +1,7 @@
+// scope indicates the area of visibility
 // there are global, block and function (local) scope
-// variables in global scope are available inside the block or local scope
-// variables in block or local scope are not available outside
+// variables in global scope are available inside the block or function scope
+// variables in block or function scope are not available outside
 
 function funcA() {
   let a = 1
