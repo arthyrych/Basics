@@ -2,7 +2,7 @@
 // when function encloses variables from outer function's scope and we have no direct access to the enclosed variable
 
 // variable message is enclosed and we have no direct access to it except through log method used by inner function
-function sayHelloTo(name) {
+function sayHelloTo (name) {
   const message = 'Hello ' + name
   return function() {
     console.log(message)
@@ -15,7 +15,7 @@ console.log(helloToJoe()) // undefined
 
 
 // variable fw is enclosed and we have no direct access to it except through the object's methods
-function createFrameworkManager() {
+function createFrameworkManager () {
   const fw = ['Cypress', 'Playwright']
   return {
     print: function() {

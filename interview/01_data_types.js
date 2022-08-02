@@ -23,7 +23,7 @@ console.log(Boolean(0)) // false
 console.log(Boolean('0')) // true
 console.log(Boolean([])) // true
 console.log(Boolean({})) // true
-console.log(Boolean(function() {})) // true
+console.log(Boolean(function() { })) // true
 
 
 // string and number types

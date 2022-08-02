@@ -3,7 +3,7 @@
 
 // issue
 let result = []
-for (var i = 0; i < 5; i++) {
+for(var i = 0; i < 5; i++) {
   result.push(function() {
     console.log(i)
   })
@@ -11,11 +11,12 @@ for (var i = 0; i < 5; i++) {
 
 result[1]() // 5
 result[2]() // 5
+result[3]() // 5
 
 
 // fixed with iife
 let result2 = []
-for (var i =0; i < 5; i++) {
+for(var i = 0; i < 5; i++) {
   (function() {
     var j = i
     result2.push(function() {
@@ -26,3 +27,4 @@ for (var i =0; i < 5; i++) {
 
 result2[1]() // 1
 result2[2]() // 2
+result2[3]() // 3

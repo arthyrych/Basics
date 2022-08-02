@@ -1,12 +1,12 @@
 // prototype is a parent object of the current object
 // it works as a tree - root object from which inherit other objects from which inherit also other objects
-// if we refer to a property/method and there is none in the current object it searches up in the prototype object
+// if we refer to a property/method and there is none in the current object it searches in the prototype object
 
 // Object.getPrototypeOf() es5 syntax
 // __proto__ es6 syntax
 
 // class created with es5 syntax
-function Cat(name, color) {
+function Cat (name, color) {
   this.name = name
   this.color = color
 }
@@ -27,7 +27,7 @@ console.log(newCat.__proto__ === Cat.prototype) // true
 
 
 // class created with es5 syntax
-function Person() {}
+function Person () { }
 // adding properties to the prototype
 Person.prototype.legs = 2
 Person.prototype.hands = 2

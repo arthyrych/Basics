@@ -3,11 +3,11 @@
 // variables in global scope are available inside the block or function scope
 // variables in block or function scope are not available outside
 
-function funcA() {
+function funcA () {
   let a = 1
-  function funcB() {
+  function funcB () {
     let b = 2
-    function funcC() {
+    function funcC () {
       let c = 3
       console.log('funcC', a, b, c) // funcC 1 2 3
     }

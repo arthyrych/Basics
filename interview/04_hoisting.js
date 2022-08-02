@@ -2,7 +2,7 @@
 
 // the sum function declared below however we can invoke it
 console.log(sum(1, 2)) // 3
-function sum(a, b) {
+function sum (a, b) {
   return a + b
 }
 
@@ -26,13 +26,13 @@ console.log(number2) // 9
 
 // function declaration is affected by hoisting
 console.log(square(25)) // 625
-function square(num) {
-  return num**2
+function square (num) {
+  return num ** 2
 }
 
 // function expression is NOT affected by hoisting
 console.log(cube(25)) // ReferenceError: Cannot access 'cube' before initialization
 const cube = function(num) {
-  return num**3
+  return num ** 3
 }
 console.log(cube(25)) // 15625

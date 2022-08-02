@@ -2,7 +2,7 @@
 
 const person = {
   surname: 'Stark',
-  knows: function (what, name) {
+  knows: function(what, name) {
     console.log(`You know ${what}, ${name} ${this.surname}.`)
   }
 }
@@ -17,7 +17,7 @@ person.knows.bind(john, 'nothing', 'John')() // You know nothing, John Snow.
 
 
 // explicit binding (way to pass context)
-function logThis() {
+function logThis () {
   console.log(this)
 }
 const obj = {num: 33}

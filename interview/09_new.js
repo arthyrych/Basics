@@ -1,7 +1,7 @@
 // classes are a template for creating objects
 
 // class with es5 syntax
-function Cat(color, name) {
+function Cat (color, name) {
   this.color = color
   this.name = name
 }
@@ -10,7 +10,7 @@ console.log(cat) // Cat { color: 'black', name: 'Tom' }
 
 
 // creating our own New
-function myNew(constructor, ...args) {
+function myNew (constructor, ...args) {
   const obj = {}
   Object.setPrototypeOf(obj, constructor.prototype)
   return constructor.apply(obj, args) || obj
