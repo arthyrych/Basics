@@ -1,5 +1,5 @@
-// 7 data types (all primitive except objects)
-// null, undefined, boolean, number, string, symbol (es6), object
+// 8 data types (all primitive except objects)
+// null, undefined, boolean, number, string, symbol (es6 2015), bigIng (es11 2020), object
 
 console.log(typeof null) // object (typeof operator inaccuracy)
 console.log(typeof undefined) // undefined
@@ -8,6 +8,7 @@ console.log(typeof 0) // number
 console.log(typeof NaN) // number
 console.log(typeof 'string') // string
 console.log(typeof Symbol('JS')) // symbol
+console.log(typeof BigInt(1)) // bigint
 console.log(typeof Math) // object
 
 // undefined - the variable wasn't declared or it was decraled without any value
@@ -17,7 +18,7 @@ console.log(typeof Math) // object
 
 
 // type coercion
-// false - '', 0, null, undefined, NaN, false
+// '', 0, null, undefined, NaN, false returns false
 console.log(Boolean('')) // false
 console.log(Boolean(0)) // false
 console.log(Boolean('0')) // true
