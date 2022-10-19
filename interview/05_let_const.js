@@ -1,10 +1,12 @@
 // var available inside function scope, affected by hoisting, can be reassigned or redeclared in the scope
-
 // let available inside block scope, not affected by hoisting, can be reassigned but cannot be redeclared in the scope
+// const available inside block scope, not affected by hoisting, cannot be reassigned or redeclared in the scope
+
+// {} creates block scope in es6
+
 let a = 'variable a'
 let b = 'variable b'
 
-// {} creates block scope in es6
 {
   // console.log(a) // variable a
   // console.log(b) // ReferenceError: Cannot access 'b' before initialization
@@ -18,7 +20,6 @@ console.log(a) // new variable a
 console.log(b) // variable b
 
 
-// const available inside block scope, not affected by hoisting, cannot be reassigned or redeclared in the scope
 const PORT = 8080
 // PORT = 2000 // TypeError: Assignment to constant variable.
 
