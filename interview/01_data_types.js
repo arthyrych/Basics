@@ -18,14 +18,13 @@ console.log(typeof Math) // object
 
 
 // type coercion
-// '', 0, null, undefined, NaN, false returns false
+// null, undefined, false, 0, NaN, '' returns false
 console.log(Boolean('')) // false
 console.log(Boolean(0)) // false
 console.log(Boolean('0')) // true
 console.log(Boolean([])) // true
 console.log(Boolean({})) // true
 console.log(Boolean(function() { })) // true
-
 
 // string and number types
 console.log(1 + '2') // string 12
@@ -38,7 +37,6 @@ console.log('42' - 40) // number 2
 console.log('42px' - 2) // NaN
 console.log(null + 2) // number 2
 console.log(undefined + 2) // NaN
-
 
 // == vs ===
 // == compares with type coercion

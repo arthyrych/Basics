@@ -1,4 +1,6 @@
-// context isn't scope, scope - visibility of the variables, and context - object to which a function belongs
+// context isn't scope
+// scope represents visibility of the variables
+// context represents an object to which a function belongs
 
 const person = {
   surname: 'Stark',

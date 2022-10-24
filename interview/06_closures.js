@@ -1,5 +1,5 @@
-// closure is when function has access to variables from outer function's scope (function inside function)
-// when function encloses variables from outer function's scope and we have no direct access to the enclosed variable
+// closure is when function has access to variables from outer function scope (function inside function)
+// when function encloses variables from outer function scope and we have no direct access to the enclosed variables
 
 // variable message is enclosed and we have no direct access to it except through log method used by inner function
 function sayHelloTo (name) {
@@ -8,7 +8,6 @@ function sayHelloTo (name) {
     console.log(message)
   }
 }
-
 const helloToJoe = sayHelloTo('Joe')
 console.log(helloToJoe) // Hello Joe
 console.log(helloToJoe()) // undefined
@@ -26,7 +25,6 @@ function createFrameworkManager () {
     }
   }
 }
-
 const manager = createFrameworkManager()
 console.log(manager) // { print: [Function: print], add: [Function: add] }
 manager.print() // [ 'Cypress', 'Playwright' ]

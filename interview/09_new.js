@@ -1,4 +1,4 @@
-// classes are a template for creating objects
+// classes are templates for creating objects
 
 // class with es5 syntax
 function Cat (color, name) {
@@ -8,7 +8,6 @@ function Cat (color, name) {
 const cat = new Cat('black', 'Tom')
 console.log(cat) // Cat { color: 'black', name: 'Tom' }
 
-
 // creating our own New
 function myNew (constructor, ...args) {
   const obj = {}
@@ -17,7 +16,6 @@ function myNew (constructor, ...args) {
 }
 const cat2 = myNew(Cat, 'white', 'Tinki')
 console.log(cat2) // Cat { color: 'white', name: 'Tinki' }
-
 
 // operator new creates instances of classess
 const cat3 = new Cat()

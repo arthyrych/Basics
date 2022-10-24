@@ -1,5 +1,5 @@
 // prototype is a parent object of the current object
-// it works as a tree - root object from which inherit other objects from which inherit also other objects
+// it works as a tree - root object from which are inherited other objects from which are inherited also other objects
 // if we refer to a property/method and there is none in the current object it searches in the prototype object
 
 // Object.getPrototypeOf() es5 syntax

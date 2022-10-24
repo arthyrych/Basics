@@ -1,8 +1,8 @@
-// value as a reference
+// passing by value vs passing by reference
 
-// with primitive data types we work in isolation
+// primitive data types passed by value
 let a = 42
-// it works as an isolated copy
+// it works as an isolated copy, they no longer have a relationship
 let b = a
 // actions with b will NOT affect a
 b++
@@ -10,11 +10,11 @@ console.log('a', a) // a 42
 console.log('b', b) // b 43
 
 
-// with non-primitive (objects, arrays, functions) data types we doesn't work in isolation by default
+// non-primitive (objects, arrays, functions) data types passed by reference
 let arr1 = [1, 2, 3]
-// it works as a link
+// it works as a link to the same location in memory
 let arr2 = arr1
-// actions with arr2 will affect arr1
+// actions with arr2 will affect arr1 and vice versa
 arr2.push(4)
 console.log('arr1', arr1) // arr1 [ 1, 2, 3, 4 ]
 console.log('arr2', arr2) // arr2 [ 1, 2, 3, 4 ]

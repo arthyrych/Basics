@@ -6,7 +6,6 @@
 
 let a = 'variable a'
 let b = 'variable b'
-
 {
   // console.log(a) // variable a
   // console.log(b) // ReferenceError: Cannot access 'b' before initialization
@@ -15,7 +14,6 @@ let b = 'variable b'
   console.log(a) // new variable a
   console.log(b) // new variable b
 }
-
 console.log(a) // new variable a
 console.log(b) // variable b
 
