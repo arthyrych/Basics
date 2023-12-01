@@ -1,1 +1,1 @@
-### some js notes for my own needs
+### The fundamentals and frequently asked questions
