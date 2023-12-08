@@ -5,6 +5,14 @@
 // - Reason for leaving the current project
 // - English
 
+// Testing Theory
+// - Testing objectives
+// - Testing principles
+// - Testing process and SDLC
+// - Testing levels
+// - Testing types
+// - Testing techniques (test design techniques)
+
 // QA Automation 
 // - Automation Framework Layers
 // - OOP (object oriented programming) and FP (functional programming)
@@ -17,9 +25,6 @@
 // - SoftAssertions
 // - Triple A principle
 // - Selectors and differences (XPath/CSS)
-
-// Cypress
-// - pros and cons
 
 // Linux
 // - Most used commands
@@ -41,3 +46,6 @@
 // - main status code groups
 // - necessary headers
 // - the difference between REST and SOAP
+
+// Cypress
+// - pros and cons
