@@ -5,18 +5,11 @@
 // - Reason for leaving the current project
 // - English
 
-// QA testing theory
-// - Testing objectives
-// - Testing principles
-// - Testing process and SDLC
-// - Testing levels
-// - Testing types
-// - Testing techniques (test design techniques)
-
 // QA Automation 
 // - Automation Framework Layers
 // - OOP (object oriented programming) and FP (functional programming)
 // - Design Patterns (Wrapper, builder, PO etc)
+// - Data Structures
 // - BDD (Behavior-Driven Development) and TDD (Test-Driven Development)
 // - SOLID
 // - DRY, YAGNI, KISS

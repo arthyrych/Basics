@@ -11,8 +11,8 @@ console.log(typeof Symbol('JS')) // symbol
 console.log(typeof BigInt(1)) // bigint
 console.log(typeof Math) // object
 
-// undefined - the variable wasn't declared or it was decraled without any value
-// functions which return nothing return undefined by defult
+// undefined - the variable wasn't declared or it was declared without any value
+// functions which return nothing return undefined by default
 
 // null - the variable was declared and the value was set to null
 

@@ -1,6 +1,6 @@
-// var available inside function scope, affected by hoisting, can be reassigned or redeclared in the scope
-// let available inside block scope, not affected by hoisting, can be reassigned but cannot be redeclared in the scope
-// const available inside block scope, not affected by hoisting, cannot be reassigned or redeclared in the scope
+// var available inside function scope, affected by hoisting, can be reassigned or re-declared in the scope
+// let available inside block scope, not affected by hoisting, can be reassigned but cannot be re-declared in the scope
+// const available inside block scope, not affected by hoisting, cannot be reassigned or re-declared in the scope
 
 // {} creates block scope in es6
 
