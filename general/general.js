@@ -14,11 +14,12 @@
 // - Testing techniques (test design techniques)
 
 // QA Automation 
-// - OOP
-// - FP
-// - Patterns (Wrapper, builder, PO etc)
+// - Automation Framework Layers
+// - OOP (object oriented programming) and FP (functional programming)
+// - Design Patterns (Wrapper, builder, PO etc)
+// - BDD (Behavior-Driven Development) and TDD (Test-Driven Development)
 // - SOLID
-// - DRY, YAGNI
+// - DRY, YAGNI, KISS
 // - Explicit/implicit waiters
 // - SoftAssertions
 // - Triple A principle
@@ -41,3 +42,9 @@
 // - YAML files
 
 // SQL
+// - CRUD operations
+
+// REST and SOAP APIs
+// - main status code groups
+// - necessary headers
+// - the difference between REST and SOAP
