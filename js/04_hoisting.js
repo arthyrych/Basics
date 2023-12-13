@@ -31,7 +31,7 @@ function square (num) {
 }
 
 // function expression is NOT affected by hoisting
-console.log(cube(25)) // ReferenceError: Cannot access 'cube' before initialization
+// console.log(cube(25)) // ReferenceError: Cannot access 'cube' before initialization
 var cube = function(num) {
   return num ** 3
 }
