@@ -2,10 +2,10 @@
 // it works as a tree - root object from which are inherited other objects from which are inherited also other objects
 // if we refer to a property/method and there is none in the current object it searches in the prototype object
 
-// Object.getPrototypeOf() es5 syntax
-// __proto__ es6 syntax
+// Object.getPrototypeOf() ES5 syntax
+// __proto__ ES6 syntax
 
-// class created with es5 syntax
+// class created with ES5 syntax
 function Cat (name, color) {
   this.name = name
   this.color = color
@@ -26,7 +26,7 @@ newCat.voice() // Tom says meow meow!
 console.log(newCat.__proto__ === Cat.prototype) // true
 
 
-// class created with es5 syntax
+// class created with ES5 syntax
 function Person () { }
 // adding properties to the prototype
 Person.prototype.legs = 2
@@ -48,17 +48,17 @@ console.log(newPerson.hasOwnProperty('legs')) // false
 console.log(newPerson.hasOwnProperty('name')) // true
 
 
-// will be used as a prototype object
-const year = {year: 2022}
-// creating a new object from prototype
-const myYear = Object.create(year)
+// the object will be used as a prototype object
+const yearObj = {year: 2022}
+// creating a new object from the prototype
+const newYearObj = Object.create(yearObj)
 
 // some checks
-console.log(myYear.year) // 2022
-console.log(myYear.hasOwnProperty('year')) // false
-console.log(myYear.__proto__ === year) // true
+console.log(newYearObj.year) // 2022
+console.log(newYearObj.hasOwnProperty('year')) // false
+console.log(newYearObj.__proto__ === yearObj) // true
 
-// if we change prototype's property it also affects property in the object we created from prototype
-year.year = 2018
-console.log(year.year) // 2018
-console.log(myYear.year) // 2018
+// if we change the prototype's property it also affects property in the object we created from the prototype
+yearObj.year = 2018
+console.log(yearObj.year) // 2018
+console.log(newYearObj.year) // 2018

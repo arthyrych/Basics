@@ -28,7 +28,7 @@ logThis.call(obj) // { num: 33 }
 logThis.bind(obj)() // { num: 33 }
 
 
-// imlicit binding (way to pass context)
+// implicit binding (way to pass context)
 const obj2 = {
   num: 34,
   logThis: function() {
@@ -38,4 +38,6 @@ const obj2 = {
 obj2.logThis() // { num: 34, logThis: [Function: logThis] }
 
 
-// Additional note: arrow functions DON'T create their own context
+// IMPORTANT: 
+// arrow functions don't create their own context and lexically inherit `this` from the surrounding scope
+// function declaration and function expression create their own context and dynamically bind `this`

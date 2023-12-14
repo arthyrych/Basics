@@ -2,7 +2,7 @@
 // let available inside block scope, not affected by hoisting, can be reassigned but cannot be re-declared in the scope
 // const available inside block scope, not affected by hoisting, cannot be reassigned or re-declared in the scope
 
-// {} creates block scope in es6
+// {} creates block scope in ES6
 
 let a = 'variable a'
 let b = 'variable b'

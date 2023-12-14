@@ -1,6 +1,6 @@
 // classes are templates for creating objects
 
-// class with es5 syntax
+// class with ES5 syntax
 function Cat (color, name) {
   this.color = color
   this.name = name
@@ -17,6 +17,6 @@ function myNew (constructor, ...args) {
 const cat2 = myNew(Cat, 'white', 'Tinki')
 console.log(cat2) // Cat { color: 'white', name: 'Tinki' }
 
-// operator new creates instances of classess
+// operator new creates instances of classes
 const cat3 = new Cat()
 console.log(cat3) // Cat { color: undefined, name: undefined }
