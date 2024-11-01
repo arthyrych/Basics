@@ -1,0 +1,7 @@
+REST and SOAP APIs
+- main status code groups
+- main methods
+- GET and POST - difference
+- PUT and PATCH - difference
+- necessary headers
+- the difference between REST and SOAP

@@ -1,0 +1,36 @@
+Linux/Bash
+
+Linux - operating system
+Bash - program (command-line-shell) to interact with Linux through commands
+
+- Most popular commands
+1) ls – show directory content
+2) cd – change directory
+3) pwd – print working directory and its path
+4) cp – copy files or directories
+5) mv – move or rename files or directories
+6) rm – remove files or directories
+7) mkdir – make directories
+8) rmdir – remove empty directories
+9) touch – create an empty file or update a file's timestamp
+10) cat – concatenate and display file content
+11) nano – simple terminal text editor
+12) vi – advanced terminal text editor
+13) echo – display a line of text
+14) grep – search text using patterns
+15) find – search for files or directories
+16) chmod – change file or directory permissions
+17) chown – change file owner and group
+18) df – show disk space usage
+19) du – show file or directory space usage
+20) ps – display running processes
+21) top – real-time system monitor
+22) kill – terminate a process by its PID
+23) ping – check network connectivity
+24) wget – download files from the web
+25) curl – transfer data to/from a server
+26) tar – archive files
+27) unzip – extract compressed files
+28) sudo – execute commands with superuser privileges
+29) apt – package management for Debian-based distributions
+30) man – display manual pages for commands

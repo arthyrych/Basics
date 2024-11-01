@@ -1,0 +1,26 @@
+- OOP (Object-Oriented Programming) - paradigm that structures code around objects
+
+-- Class - blueprint for creating objects with specific properties and methods
+-- Object (in OOP) - instance of a class containing data and behavior defined by the class
+-- Constructor - special method that initializes objects when a class is instantiated
+-- Interface - defines a contract of methods that a class must implement without providing the actual code
+-- Method overriding - allows a subclass to provide a specific implementation of a method from its superclass
+-- Method overloading - lets a class have multiple methods with the same name but different parameters
+-- Getter and Setter - allow controlled access and modification of private properties
+
+1) Encapsulation - principle to hide internal details and exposing only what’s necessary.
+Achieved by defining public/private properties and methods to control access.
+
+2) Inheritance - principle that allows a child class to inherit properties and methods from a parent class.
+Achieved by creating (extending) a child class from a parent class.
+
+3) Polymorphism - principle that allows methods with the same name to have different behaviors in parent and child classes.
+Achieved by overriding methods in the child class.
+
+4) Abstraction - principle of focusing on essential features and excluding unnecessary details to keep classes clean and focused.
+Achieved by creating classes with specific, single-purpose functions and avoiding unnecessary complexity.
+
+
+
+TBD
+FP
