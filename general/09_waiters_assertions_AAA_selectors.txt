@@ -1,4 +1,0 @@
-- Explicit/implicit waiters
-- SoftAssertions
-- Triple AAA principle (Arrange, Act, Assert)
-- Selectors and differences (XPath/CSS)

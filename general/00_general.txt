@@ -14,17 +14,13 @@ Testing Theory
 - Testing techniques (test design techniques)
 
 QA Automation 
-- Automation Framework Layers
 - OOP (object oriented programming) and FP (functional programming)
+- SOLID, DRY, YAGNI, KISS
 - Design Patterns (POM, Builder, Factory, Wrapper etc)
 - Data Structures
 - BDD (Behavior-Driven Development) and TDD (Test-Driven Development)
-- SOLID
-- DRY, YAGNI, KISS
-- Explicit/implicit waiters
-- SoftAssertions
-- Triple A principle
-- Selectors and differences (XPath/CSS)
+- Automation Framework Layers
+- Explicit/implicit waiters, Soft Assertions, AAA principle, Selectors (XPath/CSS)
 
 Linux
 - Most used commands
@@ -46,6 +42,3 @@ REST and SOAP APIs
 - main status code groups
 - necessary headers
 - the difference between REST and SOAP
-
-Cypress
-- pros and cons
