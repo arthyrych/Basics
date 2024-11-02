@@ -1,4 +1,4 @@
-Git
+- Git
 
 [Working Directory]                      [Staging Area]                     [Local Repo]           [Remote Repo]
   {Untracked}          git add =>           {Index} git commit -m "message" => {Head} git push =>  {Remote Repo}

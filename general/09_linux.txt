@@ -1,7 +1,6 @@
-Linux/Bash
-
-Linux - operating system
-Bash - program (command-line-shell) to interact with Linux through commands
+- Linux/Bash
+-- Linux - operating system
+-- Bash - program (command-line-shell) to interact with Linux through commands
 
 - Most popular commands
 1) ls – show directory content

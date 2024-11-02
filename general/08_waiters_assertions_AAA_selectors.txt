@@ -3,8 +3,8 @@
 -- Explicit Wait - waits for a specific condition or element for a set time, only when and where you define it
 
 - Soft Assertions
-Allows tests to continue running even if an assertion (a check) fails, collecting all errors to report at the end
-This way, you see multiple issues from one test run instead of stopping at the first failure
+-- Allows tests to continue running even if an assertion fails, collecting all errors to report at the end
+-- Multiple issues from one test run instead of stopping at the first failure
 
 - Triple AAA principle - structure for writing tests
 -- Arrange - set up the conditions for the test

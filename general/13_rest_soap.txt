@@ -1,7 +1,44 @@
-REST and SOAP APIs
-- main status code groups
-- main methods
-- GET and POST - difference
-- PUT and PATCH - difference
-- necessary headers
-- the difference between REST and SOAP
+- HTTP (HyperText Transfer Protocol) - used for communication over the web, defines how messages are formatted and transmitted between clients (like browsers) and servers
+
+- Main HTTP status codes
+-- 1xx: Informational (100 Continue, 101 Switching Protocols)
+-- 2xx: Success (200 OK, 201 Created, 204 No Content)
+-- 3xx: Redirection (301 Moved Permanently, 302 Found (temporary redirect), 304 Not Modified)
+-- 4xx: Client Errors (400 Bad Request, 401 Unauthorized, 404 Not Found, 403 Forbidden)
+-- 5xx: Server Errors (500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable)
+
+- Main HTTP methods
+-- GET: Retrieves data from a server (like viewing a webpage)
+-- POST: Sends new data to a server (like submitting a form)
+-- PUT: Updates existing data on a server (like editing a profile)
+-- DELETE: Removes data from a server (like deleting an account)
+-- PATCH: Partially updates data on a server (like changing a single field in a profile)
+
+- GET vs POST
+-- GET: Sends data in the URL, making it visible and less secure
+-- POST: Sends data in the body, keeping it hidden and more secure
+
+- PUT vs PATCH
+-- PUT: Replaces the entire resource with new data
+-- PATCH: Modifies only specific fields of the resource
+
+- HTTP headers
+-- Host: Specifies the target server (required)
+-- Content-Length (for requests with a body): Specifies the body size (required)
+-- Authorization: Sends authentication credentials
+-- Content-Type: Defines the format of the request body (e.g., application/json)
+-- Accept: Specifies the preferred response format
+-- User-Agent: Identifies the client software (e.g., browser or app)
+-- Cookie: Sends stored cookies for session management
+-- Cache-Control: Controls caching behavior for requests/responses
+
+- REST (Representational State Transfer Application Programming Interface) - architecture style for designing networked applications
+-- Lightweight, uses different methods (GET, POST, PUT, DELETE, etc)
+-- Flexible data formats (JSON, XML)
+-- Easier to use for web applications
+
+- SOAP (Simple Object Access Protocol) - protocol for APIs, relies on XML format for data exchange and includes strict standards for security and messaging
+-- Strict, uses POST for everything with a defined structure that always uses XML
+-- WSDL (Web Services Description Language) file defines what the service can do, how to call it, and what data it expects
+-- Has built-in rules for security and reliability
+-- Often used in enterprise and financial systems where strict standards are crucial
