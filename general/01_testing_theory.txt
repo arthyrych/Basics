@@ -19,9 +19,9 @@ Testing Theory
 7) Absence-of-errors is a fallacy (validation)
 
 - Testing process and SDLC
--- Monitoring and Control during all testing phases
--- Testing process - Planning - Analysis - Design - Implementation - Execution - Completion
--- SDLC - Planning - Analysis - Design - Development - Integration and Testing - Deployment - Maintenance
+-- <- Monitoring and Control (each testing process step) ->
+-- Testing process: Planning -> Analysis -> Design -> Implementation -> Execution -> Completion
+-- SDLC: Planning -> Analysis -> Design -> Development -> Integration and Testing -> Deployment -> Maintenance
 
 - Testing levels
 1) Component/Unit/Module/Program testing
@@ -32,7 +32,7 @@ Testing Theory
 
 - Testing types
 -- Functional (what the system should do - completeness, correctness, appropriateness)
--- Non-Functional (how well the system behaves - security, compatibility, portability, performance, reliability, robustness, maintainability)
+-- Non-Functional (how well the system behaves - compatibility, portability, usability, performance, reliability, robustness, maintainability, security (*holy war topic))
 -- Change related (regression and re-test/confirmation testing)
 
 - Testing techniques (test design techniques)
