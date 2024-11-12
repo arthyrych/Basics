@@ -8,10 +8,10 @@ Example: LoginHelper only manages login steps, LogoutHelper manages only logout 
 2) Open-Closed (OCP) - Extendable Code
 Classes should be open for extension, but closed for modification (make it easy to add, not change)
 Focuses on classes and interfaces, making them extendable but closed for modification
-Example: LoginHelper can be extended to handle new actions without chaning the original LoginHelper
+Example: LoginHelper can be extended to handle new actions without changing the original LoginHelper
 
 3) Liskov Substitution (LSP) - Compatible Replacement
-Childs replace their parents without breaking code (child class should be able to stand in for its parent)
+Children replace their parents without breaking code (child class should be able to stand in for its parent)
 Primarily for classes and interfaces, allowing child classes to be used interchangeably with parent classes
 Example: LoginPage class that has the same methods as a BasePage, so replacing LoginPage with BasePage doesn’t break your test
 
@@ -24,6 +24,11 @@ Example: use specific page objects for different sections - LoginPage and Dashbo
 Depend on abstractions, not on specific details
 Involves classes, interfaces, and properties, promoting reliance on abstractions rather than specific implementations
 Example: instead of hardcoding browser configurations, pass a BrowserConfig object to your tests so that any config can be used
+
+SRP relates to Encapsulation by keeping classes focused and self-contained
+OCP relates to Inheritance, allowing you to extend behavior without changing existing code
+LSP relates to Polymorphism, enabling subclasses to be used interchangeably with their parent class
+ISP and DIP relates to Abstraction, making code more modular and flexible by decoupling classes through interfaces and abstract classes
 
 
 - DRY (Don't Repeat Yourself) - avoid duplicating code by reusing components
