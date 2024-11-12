@@ -3,23 +3,30 @@
 -- Class - blueprint for creating objects with specific properties and methods
 -- Object (in OOP) - instance of a class containing data and behavior defined by the class
 -- Constructor - special method that initializes objects when a class is instantiated
--- Interface - defines a contract of methods that a class must implement without providing the actual code
+-- Interface - defines a contract (set) of methods that must be implemented in any subclasses
 -- Method overriding - allows a subclass to provide a specific implementation of a method from its superclass
 -- Method overloading - lets a class have multiple methods with the same name but different parameters
 -- Getter and Setter - allow controlled access and modification of private properties
 
-1) Encapsulation - principle to hide internal details and exposing only what’s necessary.
-Achieved by defining public/private properties and methods to control access.
+1) Encapsulation - principle that hides data and controls access.
+Achieved by using classes and objects to bundle data (properties) and methods (functions) together and access modifiers (private, public, and protected).
+In JS achieved using classes and objects with closures and private fields using #.
 
-2) Inheritance - principle that allows a child class to inherit properties and methods from a parent class.
-Achieved by creating (extending) a child class from a parent class.
+2) Inheritance - principle that lets one class inherit properties and methods from another.
+Achieved by reusing code from an existing class (parent/superclass) in a new class (child/subclass).
+In JS achieved using classes and the extends keyword.
 
-3) Polymorphism - principle that allows methods with the same name to have different behaviors in parent and child classes.
-Achieved by overriding methods in the child class.
+3) Polymorphism - principle that allows methods with the same name to have different behaviors.
+Achieved by method overriding (in subclasses) or method overloading (same method name, different parameters).
+In JS achieved using method overriding.
 
-4) Abstraction - principle of focusing on essential features and excluding unnecessary details to keep classes clean and focused.
-Achieved by creating classes with specific, single-purpose functions and avoiding unnecessary complexity.
+4) Abstraction - principle that hides complexity and exposes only the relevant features.
+Achieved by hiding complex details and exposing only the necessary parts of an object or system and using abstract classes or interfaces.
+In JS achieved using abstract patterns such as base classes with methods that should be implemented by subclasses.
 
+Encapsulation vs Abstraction:
+Encapsulation focuses on hiding the internal state and protecting it through controlled access (via getter/setter methods or private fields).
+Abstraction focuses on hiding complexity while exposing only necessary functionality (via abstract classes or interfaces).
 
 
 TBD
