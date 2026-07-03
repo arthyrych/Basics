@@ -1,0 +1,35 @@
+# Topics
+
+## HR
+- General intro
+- Previous experience
+- Project and conditions I'm looking for
+- Reason for leaving the current project
+- English
+
+## Testing Theory
+- Testing objectives
+- Testing principles
+- Testing process and SDLC
+- Testing levels
+- Testing types
+- Testing techniques (test design techniques)
+
+## QA Automation
+- OOP (object oriented programming) and FP (functional programming)
+- SOLID, DRY, YAGNI, KISS
+- Design Patterns (POM, Builder, Factory, Wrapper etc)
+- Data Structures
+- BDD (Behavior-Driven Development) and TDD (Test-Driven Development)
+- Automation Framework Layers
+- Explicit/implicit waiters, Soft Assertions, AAA principle, Selectors (XPath/CSS)
+
+## Linux
+
+## Git
+
+## CI/CD
+
+## SQL
+
+## HTTP, REST and SOAP

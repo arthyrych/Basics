@@ -1,0 +1,48 @@
+# SOLID, DRY, YAGNI, KISS
+
+## SOLID
+Set of principles for writing clean code
+
+1. Single Responsibility (SRP) - Focused Purpose
+   A class should have a single responsibility (keep things focused)
+   Primarily targets classes and methods, ensuring each does only one specific job
+   Example: LoginHelper only manages login steps, LogoutHelper manages only logout steps
+2. Open-Closed (OCP) - Extendable Code
+   Classes should be open for extension, but closed for modification (make it easy to add, not change)
+   Focuses on classes and interfaces, making them extendable but closed for modification
+   Example: LoginHelper can be extended to handle new actions without changing the original LoginHelper
+3. Liskov Substitution (LSP) - Compatible Replacement
+   Children replace their parents without breaking code (child class should be able to stand in for its parent)
+   Primarily for classes and interfaces, allowing child classes to be used interchangeably with parent classes
+   Example: LoginPage class that has the same methods as a BasePage, so replacing LoginPage with BasePage
+   doesn't break your test
+4. Interface Segregation (ISP) - Specialized Interfaces
+   Prefer smaller, specific interfaces over a large one (don't overload)
+   Affects interfaces, avoiding the creation of overloaded interfaces that contain unused methods
+   Example: use specific page objects for different sections - LoginPage and DashboardPage
+   with avoiding unnecessary functions in each
+5. Dependency Inversion (DIP) - Abstract Dependency
+   Depend on abstractions, not on specific details
+   Involves classes, interfaces, and properties, promoting reliance on abstractions rather than specific implementations
+   Example: instead of hardcoding browser configurations, pass a BrowserConfig object to your tests
+   so that any config can be used
+
+## SOLID vs OOP principles
+- SRP relates to Encapsulation by keeping classes focused and self-contained
+- OCP relates to Inheritance, allowing you to extend behavior without changing existing code
+- LSP relates to Polymorphism, enabling subclasses to be used interchangeably with their parent class
+- ISP and DIP relates to Abstraction, making code more modular and flexible by decoupling classes
+  through interfaces and abstract classes
+
+## DRY (Don't Repeat Yourself)
+Avoid duplicating code by reusing components
+Example: create utility functions for common actions which you can reuse across different tests
+
+## YAGNI (You Aren't Gonna Need It)
+Only code what's currently needed
+Example: avoid adding extra test data or selectors in page objects until needed for a specific test case
+
+## KISS (Keep It Simple, Stupid)
+Aim for simplicity in code design
+Example: avoid complex assertions and locators, use simple assertions and locators that are easy
+to understand and maintain
