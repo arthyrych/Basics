@@ -15,7 +15,7 @@
 - Assert - check if the result matches what you expected
 
 ## Selectors and differences (XPath/CSS)
-- CSS - find elements based on CSS properties (classes, IDs, etc), faster and simpler for standard web elements
+- CSS - find elements using CSS selectors (classes, IDs, attributes, etc), faster and simpler for standard web elements
 - XPath - path-based selector for locating elements based on their hierarchy in the DOM,
   useful for complex structures but can be slower
 - Difference - CSS works top-down (from parent to child), XPath works top-down (from parent to child)

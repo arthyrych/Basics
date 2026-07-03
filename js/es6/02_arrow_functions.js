@@ -12,7 +12,7 @@ const sum = (a, b) => {
   return a + b
 }
 
-// one parametr can be used without parentheses
+// one parameter can be used without parentheses
 // const cube = a => {
 //   return a ** 3
 // }
@@ -72,7 +72,7 @@ const person2 = {
 }
 person2.delayLog()
 
-// the soultion with arrow function
+// the solution with arrow function
 const person3 = {
   name: 'Jack',
   age: 23,

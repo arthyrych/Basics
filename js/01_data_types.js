@@ -1,5 +1,5 @@
 // 8 data types (all primitive except objects)
-// null, undefined, boolean, number, string, symbol (es6 2015), bigIng (es11 2020), object
+// null, undefined, boolean, number, string, symbol (es6 2015), bigint (es11 2020), object
 
 console.log(typeof null) // object (typeof operator inaccuracy)
 console.log(typeof undefined) // undefined
@@ -18,7 +18,7 @@ console.log(typeof Math) // object
 
 
 // type coercion
-// null, undefined, false, 0, NaN, '' returns false
+// null, undefined, false, 0, -0, 0n, NaN, '' returns false
 console.log(Boolean('')) // false
 console.log(Boolean(0)) // false
 console.log(Boolean('0')) // true

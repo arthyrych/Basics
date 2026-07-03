@@ -19,8 +19,8 @@ between clients (like browsers) and servers
 - PATCH: Partially updates data on a server (like changing a single field in a profile)
 
 ## GET vs POST
-- GET: Sends data in the URL, making it visible and less secure
-- POST: Sends data in the body, keeping it hidden and more secure
+- GET: Sends data in the URL - visible, gets saved in browser history and server logs
+- POST: Sends data in the body - not logged in URLs (both encrypted the same under HTTPS)
 
 ## PUT vs PATCH
 - PUT: Replaces the entire resource with new data

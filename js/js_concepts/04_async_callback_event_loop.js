@@ -1,4 +1,4 @@
-// interpretator runs line by line, pushes commands to the call stack and runs them immediately
+// interpreter runs line by line, pushes commands to the call stack and runs them immediately
 console.log('Start') // call stack > runs immediately
 console.log('Start 2') // call stack > runs immediately
 
